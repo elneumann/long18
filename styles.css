@@ -1,0 +1,177 @@
+body {
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: larger;
+    font-weight: lighter;
+}
+
+h2, h3, h4, h5 {
+    font-weight: lighter;
+}
+
+p {
+    font-size: smaller;
+}
+
+div.content{
+    margin: 10px;
+}
+
+div.top_menu{
+    height:100px;
+    margin-bottom: 10px;
+}
+
+button {
+    height: 200px;
+    width: 300px;
+    position: relative;
+    margin: 3px 0px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    padding: 0px;
+    border-width: 0px;
+    background-size: cover;
+}
+
+button.top_nav {
+    top: 2px;
+    height: 80px;
+    width: 55px;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    border-width: 0px;
+}
+
+button.top_nav:focus, button.top_nav.selected, button.top_nav.current{
+    width: 120px;
+}
+
+div.top_nav_back {
+    opacity: 0.6;
+    top: 18px;
+    left: 10px;
+    font-size: medium;
+    height: 30px;
+    width: 50%;
+    background-color: black;
+    color: white;
+    padding: 10px 5px;
+    position: absolute;
+    text-align: center;
+}
+
+button.top_nav:hover div.top_nav_back,  button.top_nav:focus div.top_nav_back{
+    opacity: 0;
+}
+
+div.top_nav_text {
+    opacity:0;
+    font-size: small;
+    top: 18px;
+    height: 30px;
+    width: 110px;
+    background-color: black;
+    color: white;
+    padding: 10px 5px;
+    position: absolute;
+    text-align: center;
+}
+
+button.top_nav:hover div.top_nav_text, button.top_nav:focus div.top_nav_text, .selected div.top_nav_text, .current div.top_nav_text{
+    opacity: 0.7;
+}
+
+button#p1{
+    background-image: url("p1.jpg")
+}
+
+button#p2{
+    background-image: url("p2.jpg")
+}
+
+button#p3{
+    background-image: url("p3.jpg")
+}
+
+button#p4{
+    background-image: url("p4.jpg")
+}
+
+button#p5{
+    background-image: url("p5.jpg")
+}
+
+button#p6{
+    background-image: url("p6.jpg")
+}
+
+button#p7{
+    background-image: url("p7.jpg")
+}
+
+button#p8{
+    background-image: url("p8.jpg")
+}
+
+div .nav_title {
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+    padding: 10px 0px 12px;
+    opacity: 0.75;
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+
+div .nav_type {
+    color: white;
+    text-align: center;
+    font-size: smaller;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+div .nav_text {
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    width: 260px;
+    height: 200px;
+    padding: 20px;
+    opacity: 0;
+    color: black;
+    text-align: center;
+    font-size: medium;
+    border-width: 0px 0px 4px 0px;
+}
+
+div.nav_text:hover {
+    opacity: 0.6;
+    border-left-color: navy;
+} 
+
+div.type {
+    font-weight:bold;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.title {
+    margin: 8px 0px;
+}
+
+.quote {
+    font-style:italic;
+}
+
+div.section ul {
+    font-size:medium;
+    margin-bottom: 12px;
+}
