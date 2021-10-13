@@ -65,7 +65,7 @@ div.top_nav_back {
 }
 
 button.top_nav:hover div.top_nav_back,  button.top_nav:focus div.top_nav_back{
-    opacity: 0;
+    opacity: 0.7;
 }
 
 div.top_nav_text {
@@ -157,7 +157,7 @@ div .nav_text {
 }
 
 div.nav_text:hover {
-    opacity: 0.6;
+    opacity: 0.8;
     border-left-color: navy;
 } 
 
